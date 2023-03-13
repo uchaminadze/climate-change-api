@@ -30,6 +30,12 @@ newspapers.forEach(newspaper => {
         }).catch((err) => console.log(err))
 })
 
+
+app.get('/', (req, res) => {
+    res.send('Hello, thank you for using my API 😇');
+});
+
+
 app.get('/news', (req, res) => {
     res.json(articles);
 });
