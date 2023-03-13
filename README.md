@@ -25,8 +25,10 @@ npm i
 
 # Start
 
-Start the development server
+1. Start the development server
 
 ```
 npm run start
 ```
+
+2. Go to localhost:8000/news to get all climate change news
